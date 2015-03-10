@@ -1,0 +1,6 @@
+rootProject.name = 'logback-test-conf-issue'
+
+include 'shared'
+include 'main'
+include 'api:shared2'
+project(':api:shared2').name = 'api-shared2'
